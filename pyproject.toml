@@ -1,0 +1,36 @@
+[project]
+name = "pymfna"
+version = "1.0.0"
+description = "MFNA Python Client library"
+authors = [
+    {name="Andy Wilson", email="andy@shady.org"},
+]
+license = {file="LICENCE"}
+readme = "README.md"
+keywords = ["MFNA"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable"
+]
+dependencies = [
+    "MarkupSafe>=3.0.2",
+    "httpx>=0.28.1",
+    "lxml>=5.3.1",
+    "xmltodict>=0.14.2"
+]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/andy-shady-org/pymfna"
+Documentation = "https://github.com/andy-shady-org/pymfna/README.md"
+Repository = "https://github.com/andy-shady-org/pymfna"
+Issues = "https://github.com/andy-shady-org/pymfna/issues"
+
+[build-system]
+requires = ['setuptools >= 64']
+build-backend = 'setuptools.build_meta'
+
+[tool.setuptools.packages.find]
+exclude = ["examples*", "media*", "*.tests*"]
+
+[tool.setuptools.package-data]
+
