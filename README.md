@@ -16,8 +16,7 @@ Or you can run build this locally::
 ```bash
 git clone https://github.com/andy-shady-org/pymfna.git
 cd pymnfa
-pip install -r requirements.txt 
-python setup.py install
+pip install .
 ```
 
 How to Use
@@ -36,14 +35,14 @@ git clone https://github.com/andy-shady-org/pymfna.git
 cd pymnfa/pymnfa
 python mnfa.py -v -o mnfaclient.py ../wsdl/api.wsdl.soappy
 cd ..
-python setup.py install
+pip install .
 ```
 
 In the above step, the class MFNAClient was created within the 'mnfaclient.py' file as specified by the '-o' flag for output.
 The class, after the package containing the new class file has been installed, can be easily imported and used.
 
 ```python
-from mnfaclient import MFNAClient
+from pymfna import MFNAClient
 
 mfna = MFNAClient('<MFNA Host>', '<username>', '<password>')
 mfna.login()
