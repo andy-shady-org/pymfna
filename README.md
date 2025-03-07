@@ -1,8 +1,7 @@
-![docs] 
-(https://readthedocs.org/projects/pymfna/badge/?version=latest)
-
 PyMFNA
 ======
+
+|docs|
 
 PyMFNA is a Python client wrapper for connecting to and performing actions against MFNA appliances.
 
@@ -68,3 +67,9 @@ make html
 ```
 
 Documentation will be built into the docs/build/html folder
+
+
+.. |docs| image:: https://readthedocs.org/projects/pymfna/badge/?version=latest
+    :alt: Documentation Status
+    :scale: 100%
+    :target: https://readthedocs.org/projects/pymfna/badge/?version=latest
