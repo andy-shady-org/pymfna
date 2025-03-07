@@ -72,4 +72,4 @@ Documentation will be built into the docs/build/html folder
 .. |docs| image:: https://readthedocs.org/projects/pymfna/badge/?version=latest
     :alt: Documentation Status
     :scale: 100%
-    :target: https://readthedocs.org/projects/pymfna/badge/?version=latest
+    :target: https://pymfna.readthedocs.io/en/latest/?badge=latest
