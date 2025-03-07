@@ -15,6 +15,10 @@ build:
     # rust: "1.82"
     # golang: "1.23"
 
+python:
+  install:
+    - requirements: requirements.txt
+
 # Build documentation in the "docs/" directory with Sphinx
 sphinx:
   configuration: docs/source/conf.py
