@@ -1,3 +1,6 @@
+![docs] 
+(https://readthedocs.org/projects/pymfna/badge/?version=latest])
+
 PyMFNA
 ======
 
