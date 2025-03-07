@@ -21,7 +21,7 @@ requires-python = ">=3.9"
 
 [project.urls]
 Homepage = "https://github.com/andy-shady-org/pymfna"
-Documentation = "https://github.com/andy-shady-org/pymfna/README.md"
+Documentation = "https://pymfna.readthedocs.io/"
 Repository = "https://github.com/andy-shady-org/pymfna"
 Issues = "https://github.com/andy-shady-org/pymfna/issues"
 
