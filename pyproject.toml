@@ -6,7 +6,7 @@ authors = [
     {name="Andy Wilson", email="andy@shady.org"},
 ]
 license = {file="LICENCE"}
-readme = "README.md"
+readme = "README.rst"
 keywords = ["MFNA"]
 classifiers = [
     "Development Status :: 5 - Production/Stable"
